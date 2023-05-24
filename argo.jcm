@@ -1,0 +1,10 @@
+mas argo {
+	
+
+    agent bob: bane.asl {
+      ag-arch: jason.Argo
+    }
+
+
+}
+

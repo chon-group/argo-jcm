@@ -1,17 +1,10 @@
-/*
-   Project jcm_hello
-
-   Gradle build file for JaCaMo Applications
-   March 16, 2023 - 16:17:34
-*/
-
 defaultTasks 'run'
 
 apply plugin: 'java'
 apply plugin: 'maven-publish'
 
-version '1.0'
-group = 'com.github.jomifred'
+version '0.9-beta'
+group = 'com.github.chon-group'
 
 java {
     toolchain {
@@ -29,6 +22,7 @@ repositories {
 
 dependencies {
     implementation('org.jacamo:jacamo:1.2-SNAPSHOT') 
+    implementation('com.github.chon-group:javino:1.6')
 }
 
 sourceSets {
@@ -53,7 +47,7 @@ task run (type: JavaExec, dependsOn: 'classes') {
         mkdir 'log'
     }
     mainClass = 'jacamo.infra.JaCaMoLauncher'
-    args 'jcm_hello.jcm'
+    args 'argo.jcm'
     // jvmArgs '-Xss15m'
     classpath sourceSets.main.runtimeClasspath
 }
