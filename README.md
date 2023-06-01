@@ -3,9 +3,9 @@ Argo for JaCaMo
 
 ### Creating a JaCaMo Project
 ```sh
-nilson@pc:~$ wget -q http://jacamo-lang.github.io/jacamo/nps/np1.2.zip
-nilson@pc:~$ unzip -qq np1.2.zip 
-nilson@pc:~$ ./gradlew -Dexec.args="hello-argo --console"  
+wget -q http://jacamo-lang.github.io/jacamo/nps/np1.2.zip
+unzip -qq np1.2.zip 
+./gradlew -Dexec.args="hello-argo --console"  
 ```
 
 ### Configuring Project
@@ -50,11 +50,11 @@ Status = off | Status = timeout <-
 
 ### Importing Deps
 ```sh
-nilson@pc:~$ cd hello-argo/
-nilson@pc:~/hello-argo$ ./gradlew buildJCMDeps
+cd hello-argo/
+./gradlew buildJCMDeps
 ``` 
 
 ### Run
 ```sh
-nilson@pc:~/hello-argo$ ./gradlew run
+./gradlew run
 ```
