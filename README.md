@@ -5,16 +5,7 @@ Argo for JaCaMo
 ```sh
 nilson@pc:~$ wget -q http://jacamo-lang.github.io/jacamo/nps/np1.2.zip
 nilson@pc:~$ unzip -qq np1.2.zip 
-nilson@pc:~$ ./gradlew -Dexec.args="hello-argo --console"
-
-> Task :run
-Creating JaCaMo application hello-argo
-Creating path /home/nilson/hello-argo
-
-You can run your application with:
-   cd /home/nilson/hello-argo
-   ./gradlew -q --console=plain
-   
+nilson@pc:~$ ./gradlew -Dexec.args="hello-argo --console"  
 nilson@pc:~$ 
 ```
 
