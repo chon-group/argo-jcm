@@ -31,20 +31,20 @@ serialPort(ttyACM0).
 +!start:
 serialPort(Port) <- 
 	.print("Ah, Mr. Anderson, I see you are as predictable in this world as you are in the other.");
-	.port(Port);
-	.percepts(open).
+	argo.port(Port);
+	argo.percepts(open).
 
 +ledStatus(on) <-
 	.print("Turning ON  the Led in Arduino!");
-	.act(ledOff).
+	argo.act(ledOff).
 
 +ledStatus(off) <-
 	.print("Turning OFF the Led in Arduino!");
-	.act(ledOn).
+	argo.act(ledOn).
 
 +port(Port,Status):
 Status = off | Status = timeout <-
-	.percepts(close);
+	argo.percepts(close);
 	.print("It's not over, Mr. Anderson! It's not over!").
 ```
 
