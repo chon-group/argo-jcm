@@ -5,9 +5,10 @@ Argo for JaCaMo
 You need an Arduino Board with [Javino](https://github.com/chon-group/javino2arduino).
 
 ### Deploying the Javino Blink example in your board.
-+ Download and Import the latest [Javino Library](https://github.com/chon-group/javino2arduino/archive/refs/tags/javino-latest.zip) in your Arduino IDE.
++ Download the latest [Javino Library](https://github.com/chon-group/javino2arduino/archive/refs/tags/javino-latest.zip).
++ Import to your Arduino IDE.
 + Create a new project with the Javino Blink example
-![Sem título](https://github.com/chon-group/argo-jcm/assets/32855001/e8ec77a5-7185-440c-aedf-0887aeec81fc)
+![arduino](https://github.com/chon-group/argo-jcm/assets/32855001/d5be0497-de49-46ab-8da5-f86c9db4a1da)
 + Deploy the code
 
 
