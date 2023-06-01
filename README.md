@@ -11,7 +11,7 @@ unzip -qq np1.2.zip
 ### Configuring Project
 Edit  the project file __hello-argo/hello_argo.jcm__
 ```
-mas argo_hello {
+mas hello_argo {
     agent bob: sample_agent.asl {
       ag-arch: jason.Argo
     }
