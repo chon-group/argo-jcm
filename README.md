@@ -6,7 +6,6 @@ Argo for JaCaMo
 nilson@pc:~$ wget -q http://jacamo-lang.github.io/jacamo/nps/np1.2.zip
 nilson@pc:~$ unzip -qq np1.2.zip 
 nilson@pc:~$ ./gradlew -Dexec.args="hello-argo --console"  
-nilson@pc:~$ 
 ```
 
 ### Configuring Project
@@ -18,7 +17,7 @@ mas argo_hello {
 }
 ```
 
-Edit the agent file __hello-vellus/src/agt/sample_agent.asl__
+Edit the agent file __hello-argo/src/agt/sample_agent.asl__
 ```sh
 /* Initial beliefs and rules */
 serialPort(ttyACM0).
@@ -51,17 +50,11 @@ Status = off | Status = timeout <-
 
 ### Importing Deps
 ```sh
-nilson@pc:~$ cd hello-vellus/
-nilson@pc:~/hello-vellus$ ./gradlew buildJCMDeps
-
-> Task :buildJCMDeps
-reading from file hello_vellus.jcm ...  file hello_vellus.jcm parsed successfully!
-JCM packages dependencies updated at .jcm-deps.gradle
-
-nilson@pc:~/hello-vellus$
+nilson@pc:~$ cd hello-argo/
+nilson@pc:~/hello-argo$ ./gradlew buildJCMDeps
 ``` 
 
 ### Run
 ```sh
-
+nilson@pc:~/hello-argo$ ./gradlew run
 ```
