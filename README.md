@@ -12,7 +12,9 @@ unzip -qq np1.2.zip
 Edit  the project file __hello-argo/hello_argo.jcm__
 ```
 mas argo_hello {
-    agent bob: sample_agent.asl
+    agent bob: sample_agent.asl {
+      ag-arch: jason.Argo
+    }
     uses package: argo "com.github.chon-group:argo-jcm:0.9-beta"
 }
 ```
