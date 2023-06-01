@@ -58,5 +58,6 @@ cd hello-argo/
 
 ### Run
 ```sh
+sudo chmod 777 /dev/ttyACM0
 ./gradlew run
 ```

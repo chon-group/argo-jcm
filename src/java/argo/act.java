@@ -1,4 +1,4 @@
-package jason.stdlib;
+package argo;
 
 import jason.asSemantics.DefaultInternalAction;
 import jason.asSemantics.TransitionSystem;

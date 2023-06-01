@@ -3,7 +3,7 @@ defaultTasks 'run'
 apply plugin: 'java'
 apply plugin: 'maven-publish'
 
-version '0.9-beta'
+version '1.0'
 group = 'com.github.chon-group'
 
 java {
