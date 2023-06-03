@@ -79,6 +79,10 @@ public class Argo extends AgArch {
     }
 
     public void setPort(String port) {
+        if(port.equals("none") || port.equals("/dev/none") ){
+            setBlocked(true);
+            javino.closePort();
+        }
         this.port = port;
     }
 

@@ -3,7 +3,7 @@ defaultTasks 'run'
 apply plugin: 'java'
 apply plugin: 'maven-publish'
 
-version '1.0'
+version '1.0.1'
 group = 'com.github.chon-group'
 
 java {
@@ -22,7 +22,7 @@ repositories {
 
 dependencies {
     implementation('org.jacamo:jacamo:1.2-SNAPSHOT') 
-    implementation('com.github.chon-group:javino:1.6')
+    implementation('com.github.chon-group:javino:1.6.1')
 }
 
 sourceSets {
