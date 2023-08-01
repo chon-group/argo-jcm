@@ -13,10 +13,11 @@ You need an Arduino Board with [Javino](https://github.com/chon-group/javino2ard
 
 
 ### Creating a JaCaMo Project
+To install JaCaMo-CLI follow this instructions: [JaCaMo-CLI Installation](https://github.com/chon-group/dpkg-jacamo)
+
+
 ```sh
-wget -q http://jacamo-lang.github.io/jacamo/nps/np1.2.zip
-unzip -qq np1.2.zip 
-./gradlew -Dexec.args="hello-argo --console"  
+jacamo app create hello-argo --console
 ```
 
 ### Configuring Project
@@ -26,7 +27,7 @@ mas hello_argo {
     agent bob: sample_agent.asl {
       ag-arch: jason.Argo
     }
-    uses package: argo "com.github.chon-group:argo-jcm:1.0"
+    uses package: argo "com.github.chon-group:argo-jcm:1.1"
 }
 ```
 
