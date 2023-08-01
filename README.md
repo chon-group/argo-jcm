@@ -65,5 +65,5 @@ Status = off | Status = timeout <-
 sudo chmod 777 /dev/ttyACM0
 jacamo hello-argo/hello-argo.jcm
 ```
-![Captura de tela de 2023-06-01 10-25-53](https://github.com/chon-group/argo-jcm/assets/32855001/06ca7ece-86ff-4a19-8ed5-1251e89dc8f0)
+![Tutoria-argo-jcm](https://github.com/chon-group/argo-jcm/assets/23249901/d6314cba-2669-4317-8379-c35882e375eb)
 
