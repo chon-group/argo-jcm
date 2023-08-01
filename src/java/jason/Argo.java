@@ -70,6 +70,11 @@ public class Argo extends AgArch {
         }
     }
 
+    @Override
+    public boolean canSleep() {
+        return false;
+    }
+
     public Javino getJavino() {
         return this.javino;
     }
