@@ -60,16 +60,10 @@ Status = off | Status = timeout <-
 	.print("It's not over, Mr. Anderson! It's not over!").
 ```
 
-### Importing Deps
-```sh
-cd hello-argo/
-./gradlew buildJCMDeps
-``` 
-
 ### Run
 ```sh
 sudo chmod 777 /dev/ttyACM0
-./gradlew run
+jacamo hello-argo/hello-argo.jcm
 ```
 ![Captura de tela de 2023-06-01 10-25-53](https://github.com/chon-group/argo-jcm/assets/32855001/06ca7ece-86ff-4a19-8ed5-1251e89dc8f0)
 
