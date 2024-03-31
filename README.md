@@ -17,7 +17,7 @@ To install JaCaMo-CLI follow these instructions: [JaCaMo-CLI Installation](https
 
 In a terminal, execute the following command:
 ```sh
-jacamo app create hello-argo --console
+jacamo app create hello_argo --console
 ```
 
 #### Including the Argo Package in the JaCaMo Project
