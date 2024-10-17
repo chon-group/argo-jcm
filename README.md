@@ -74,12 +74,19 @@ In this tutorial you will learn how to import the Argo BDI-agent Architecture in
 
 ![](https://raw.githubusercontent.com/wiki/chon-group/Argo/.imgs/jaCaMoBlinkSimulIDE.png)
 
+## Examples and Others
+See the [Argo Wiki Page](https://github.com/chon-group/Argo/wiki)
+
 ## COPYRIGHT
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The Argo Jacamo Package is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. The licensor cannot revoke these freedoms as long as you follow the license terms:
 
 * __Attribution__ — You must give __appropriate credit__ like below:
 
 Lazarin, N.M., Pantoja, C.E., Viterbo, J. (2024). Dealing with the Unpredictability of Physical Resources in Real-World Multi-agent Systems. In: Rocha, A.P., Steels, L., van den Herik, J. (eds) Agents and Artificial Intelligence. ICAART 2023. Lecture Notes in Computer Science(), vol 14546. Springer, Cham. https://doi.org/10.1007/978-3-031-55326-4_3
+
+<details>
+<summary>BibTeX Citation</summary>
+
 
 ```
 @InProceedings{argoJCMPackage,
@@ -99,3 +106,4 @@ Lazarin, N.M., Pantoja, C.E., Viterbo, J. (2024). Dealing with the Unpredictabil
 	isbn="978-3-031-55326-4"
 }
 ```	
+</details>
